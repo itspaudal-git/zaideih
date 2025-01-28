@@ -1,3 +1,8 @@
+//
+//  AudioPlayerManager.swift
+//  Zaideih
+//
+
 import AVFoundation
 import Combine
 import MediaPlayer
@@ -230,17 +235,6 @@ class AudioPlayerManager: ObservableObject {
     }
 
     func playPreviousTrack() {
-        // Implement logic to play the previous track in the playlist
-        // For example:
-        // if let currentIndex = tracks.firstIndex(of: currentTrack!),
-        //    currentIndex - 1 >= 0 {
-        //     let previousTrack = tracks[currentIndex - 1]
-        //     play(track: previousTrack)
-        // } else {
-        //     // Optionally loop back to the last track
-        //     selectedTrackIndex = tracks.count - 1
-        //     play(track: tracks.last!)
-        // }
     }
 
     deinit {

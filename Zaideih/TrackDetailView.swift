@@ -1,3 +1,8 @@
+//
+//TrackDetailView.swift
+//  Zaideih
+//
+
 import SwiftUI
 import AVFoundation
 import Combine

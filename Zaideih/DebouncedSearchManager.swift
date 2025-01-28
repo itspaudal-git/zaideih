@@ -2,8 +2,6 @@
 //  DebouncedSearchManager.swift
 //  Zaideih
 //
-//  Created by Pau Dal on 9/21/24.
-//
 
 import Combine
 import Foundation
