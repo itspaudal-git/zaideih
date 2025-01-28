@@ -34,9 +34,22 @@
 		5F74EAE52C9AB2B800BFCD5E /* ZaideihUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaideihUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5FDBED162D496B1F004943D3 /* Exceptions for "Zaideih" folder in "Zaideih" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5F74EACA2C9AB2B700BFCD5E /* Zaideih */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5F74EACD2C9AB2B700BFCD5E /* Zaideih */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5FDBED162D496B1F004943D3 /* Exceptions for "Zaideih" folder in "Zaideih" target */,
+			);
 			path = Zaideih;
 			sourceTree = "<group>";
 		};
@@ -412,6 +425,7 @@
 				DEVELOPMENT_TEAM = 49B4GZHSP4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zaideih/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,6 +456,7 @@
 				DEVELOPMENT_TEAM = 49B4GZHSP4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zaideih/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
